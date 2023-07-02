@@ -1,0 +1,123 @@
+* {
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Caprasimo", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Martian Mono", monospace;
+  font-family: "Oswald", sans-serif;
+  font-family: "Pacifico", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Prompt", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+
+/*   working colors only:                */
+header {
+  background-color: #98a8f8;
+  display: flex;
+}
+h1 {
+  font-size: x-large;
+  font-weight: bolder;
+  color: aliceblue;
+}
+
+header h1:hover {
+  font-size: xx-large;
+}
+
+footer {
+  background-color: #bccef8;
+  bottom: 0;
+  display: flexbox;
+}
+footer h2 {
+  color: aliceblue;
+  font-weight: bolder;
+}
+
+footer h2:hover {
+  font-size: xx-large;
+
+  background: #98a8f8;
+  transition: width 3s;
+  transition-delay: 5s;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#one {
+  background-color: #faf7f0;
+  display: flex;
+}
+
+#one p {
+  color: #202b61;
+  font-size: larger;
+  font-weight: bolder;
+  display: flex;
+}
+
+img {
+  display: auto;
+  border-radius: 30%;
+  height: 150px;
+  width: 150px;
+}
+.col {
+  border-radius: 30%;
+}
+
+.btn {
+  background-color: #98a8f8;
+  color: aliceblue;
+}
+
+btn:hover {
+  font-size: xx-large;
+
+  background-color: #98a8f8;
+  transition: width 3s;
+  transition-delay: 5s;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+btn h3 {
+  background-color: white !important;
+  font-size: larger;
+}
+
+.dog {
+}
+
+.cat {
+}
+
+.cow {
+}
+
+.horse {
+}
+
+.elephant {
+}
+
+.monkey {
+}
+
+.lion {
+}
+
+.bear {
+}
+
+.pinguin {
+}
+
+.huge {
+  .dog h3 {
+    font-size: x-large;
+    font-weight: 100;
+  }
+}
